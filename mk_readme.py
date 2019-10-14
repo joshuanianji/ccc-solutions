@@ -29,7 +29,7 @@ prevyr = -1
 for year in range(19, 0, -1):
     tmp = []
     changed = False
-    tmp.append(f"<tr><td>{year}</td>")
+    tmp.append(f"<tr><th>{year}</th>")
     for p in range(1, 6):
         if (year, p) in sols:
             s = sols[(year, p)]
