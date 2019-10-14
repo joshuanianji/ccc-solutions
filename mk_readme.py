@@ -33,7 +33,7 @@ for year in range(19, 0, -1):
     for p in range(1, 6):
         if (year, p) in sols:
             s = sols[(year, p)]
-            tmp.append(f"<td>[{s.ftype.upper()}](solutions/{s.year}s{s.pnum}.{s.ftype})</td>")
+            tmp.append(f"<td>[{s.ftype.upper()}](https://github.com/leogao2/ccc-solutions/tree/master/solutions/{s.year}s{s.pnum}.{s.ftype})</td>")
             changed = True
         else:
             tmp.append('<td></td>')
